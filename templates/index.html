@@ -3,11 +3,17 @@
     <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
 
 
+
+
+
 <body>
     <div class="container">
         <h2>Financial Web Application</h2>
         <form action="/prediction" method="post">
             <input type="submit" value="Prediction DBS share Price">
+        </form>
+        <form action="/text_sentiment" method="post">
+            <input type="submit" value="Sentiment Analysis">
         </form>
     </div>
 </body>
